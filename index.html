@@ -13,6 +13,8 @@
 </head>
 
 <body>
+
+<!--Navigation bar -->
     <nav class="navbar navbar-dark fixed-top navbar-expand-sm">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><span class="fa fa-bars"></span></button>
@@ -35,9 +37,11 @@
           </div>
       </div>
     </nav>
+
+<!--Log in modal -->
+
     <div id="loginModal" class="modal fade" role="dialog">
        <div class="modal-dialog modal-lg" role="content">
-       <!-- Modal content-->
        <div class="modal-content">
            <div class="modal-header">
                <h4 class="modal-title">Login </h4>
@@ -67,6 +71,9 @@
        </div>
        </div>
     </div>
+
+<!--Reserve a table Modal-->
+
     <div class="modal fade" id="reservemodal" role="dialog">
       <div class="modal-dialog modal-lg" role="content">
         <div class="modal-content">
@@ -128,6 +135,9 @@
         </div>
       </div>
     </div>
+
+<!--Header-->
+
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
@@ -144,6 +154,8 @@
         </div>
       </div>
     </header>
+
+<!--First row containing carousel-->
 
     <div class="container">
       <div class="row">
@@ -190,9 +202,18 @@
             <a href="#mycarousel" data-slide="next" class="carousel-control-next">
               <span class="carousel-control-next-icon"></span>
             </a>
+
+            <button type="button" name="button" id="carousel-button" class="btn btn-primary">
+              <span class="fa fa-pause"></span>
+            </button>
+
+
           </div>
         </div>
       </div>
+
+<!--Second row containing content-->
+
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
@@ -208,6 +229,7 @@
             </div>
         </div>
 
+<!--third row containing content-->
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
@@ -223,6 +245,8 @@
               </div>
             </div>
         </div>
+
+<!--Fourth row content-->
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
@@ -240,6 +264,8 @@
             </div>
         </div>
     </div>
+
+<!--Footer-->
 
     <footer class="footer">
         <div class="container">
@@ -288,6 +314,10 @@
 <script src="node_modules/tether/dist/js/tether.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/bootstrap/js/dist/collapse.js"></script>
+<script src="node_modules\jquery\dist\jquery.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+<script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+
 </body>
 
 </html>
