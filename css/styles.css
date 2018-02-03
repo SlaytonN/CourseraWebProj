@@ -53,10 +53,11 @@ input[type="radio"].form-check{
 }
 
 #mycarousel {
-    background:#512DA8;
+  background:#512DA8;
 }
 .carousel-item {
   height: 300px;
+
 }
 .carousel-item img {
     top: 0;
